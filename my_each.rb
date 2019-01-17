@@ -7,4 +7,6 @@ def my_each(array)
 
 end
 
-my_each(1) {|i| i}
+my_each.collect do |i|
+  "#{i}"
+end
